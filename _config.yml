@@ -3,7 +3,7 @@ title: Ricochet Refresh
 email:
 description: A Blueprint For Free speech initiative to update and improve Ricochet
 
-baseurl: "/refresh-site/" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+baseurl: "/refresh-site" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://chrisculnane.github.io" # the base hostname & protocol for your site
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
