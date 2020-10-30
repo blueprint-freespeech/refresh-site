@@ -63,3 +63,22 @@ $theme-dark: #222;
 a {}
 
 .mainlogo {position:absolute;top:0px;margin-top:0px;margin-bottom:0px;height:52px}
+
+
+.btn-download {
+        color: #fff;
+        background-color: #204d74;
+        border-color: #122b40;
+      }
+      .btn-download:focus,
+      .btn-download.focus {
+        color: #fff;
+        background-color: #286090;
+        border-color: #122b40;
+      }
+      .btn-download:hover {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #122b40;
+      }
+      
