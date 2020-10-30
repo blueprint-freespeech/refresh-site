@@ -1,0 +1,30 @@
+# Site settings
+title: Ricochet Refresh
+email:
+description: A Blueprint For Free speech initiative to update and improve Ricochet
+
+baseurl: "/refresh-site" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://chrisculnane.github.io" # the base hostname & protocol for your site
+
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+social:
+  - title: twitter
+    url: https://twitter.com/r2refresh
+  # - title: facebook
+  #  url: https://facebook.com/lantoniotrento
+  # - title: google-plus
+  #  url: https://plus.google.com/+AntoniotrentoIt
+  #- title: github
+  #  url: http://github.com/jekyll
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-seo-tag]
+# Build settings
+plugins:
+  - jekyll-seo-tag

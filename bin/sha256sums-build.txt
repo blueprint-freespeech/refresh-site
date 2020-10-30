@@ -1,0 +1,5 @@
+f1c432bbac75252befdf8a58917055715d401155c5d0dea710303150b86356f0  ricochet-refresh-3.0.0a-linux-i686.tar.gz
+dabbf3c8a59bd35687b21f0247486cfd743772564f62ec1c7ab07a4774d087f2  ricochet-refresh-3.0.0a-linux-x86_64.tar.gz
+d94a45c696fa352136d86b001c0153fd428a681ba2bc10460e0d52eef406eec8  ricochet-refresh-3.0.0a-macos-x86_64.dmg
+93865b34144680ddeb3e8b70d8a04c997a200f1979019ff020041aa780098d96  ricochet-refresh-3.0.0a-windows-i686.exe
+68fa0bc08f1011abed612921ba8885dd8c06bbff67937ff5e963428ec0ebeab3  ricochet-refresh-3.0.0a-windows-x86_64.exe
