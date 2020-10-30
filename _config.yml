@@ -4,18 +4,18 @@ email:
 description: A Blueprint For Free speech initiative to update and improve Ricochet
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://ricochetrefresh.net" # the base hostname & protocol for your site
+url: "https://www.ricochetrefresh.net" # the base hostname & protocol for your site
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
     url: https://twitter.com/r2refresh
   # - title: facebook
-  #  url: https://facebook.com/lantoniotrento
+  #  url: 
   # - title: google-plus
-  #  url: https://plus.google.com/+AntoniotrentoIt
+  #  url: 
   #- title: github
-  #  url: http://github.com/jekyll
+  #  url: 
 
 # Build settings
 markdown: kramdown
