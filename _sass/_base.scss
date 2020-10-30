@@ -99,12 +99,15 @@ p {
     &.active > a {
       color: $theme-primary !important;
       background-color: transparent;
+      text-decoration:underline;
       &:focus {
         color: $theme-primary !important;
         background-color: transparent;
+        text-decoration:underline;
       }
       &:hover, &:focus:hover {
         background-color: transparent;
+        text-decoration:underline;
       }
     }
   }
@@ -187,6 +190,7 @@ header {
   }
   .device-container {
     max-width: 300px;
+    padding-top:25%;
     margin: 0 auto 100px;
     .screen img {
       border-radius: 3px;
