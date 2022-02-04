@@ -27,5 +27,9 @@
   },
   "dependencies": {
     "simple-line-icons": "^2.5.5"
+  },
+  "scripts": {
+    "build": "gulp && bundle exec jekyll build",
+    "dev": "gulpfile.js dev & bundle exec jekyll serve"
   }
 }
