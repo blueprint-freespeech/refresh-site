@@ -31,6 +31,6 @@
   },
   "scripts": {
     "build": "gulp && bundle exec jekyll build",
-    "dev": "gulpfile.js dev & bundle exec jekyll serve"
+    "dev": "gulp dev & bundle exec jekyll serve"
   }
 }
