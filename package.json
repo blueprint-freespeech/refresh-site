@@ -26,6 +26,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
   },
   "dependencies": {
+    "glob-stream": "^7.0.0",
     "simple-line-icons": "^2.5.5"
   },
   "scripts": {
