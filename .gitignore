@@ -1,2 +1,6 @@
 /.project
 /_site/
+node_modules/
+.bundle/
+.jekyll-cache/
+vendor/bundle/

@@ -22,9 +22,17 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude:
+  - less
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
 
 gems: [jekyll-paginate, jekyll-feed, jekyll-seo-tag]
 # Build settings
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
