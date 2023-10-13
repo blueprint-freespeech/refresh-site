@@ -15,22 +15,37 @@
                 <p>If you are developer, or are comfortable compiling from source, the latest sourcecode for V3 can be found on <a href="https://github.com/blueprint-freespeech/ricochet-refresh">GitHub</a></p>
                 
                 <p>All releases are GPG signed by <a href="https://keys.openpgp.org/search?q=07AA9DAA7088B94AF3D40084D83A26FDF5050FE0">07AA 9DAA 7088 B94A F3D4 0084 D83A 26FD F505 0FE0</a><br>
-                    <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/sha256-sums.txt">SHA256 Sums of Release</a>&nbsp;
-                    <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/sha256-sums.txt.asc">Signature of SHA256 Sums</a>
+                    <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/sha256sums.txt">SHA256 Sums of Release</a>&nbsp;
+                    <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/sha256sums.txt.asc">Signature of SHA256 Sums</a>
                 </p>
                 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h3 class="section-heading bold">Windows</h3>
+                        <h3 class="bold">System Installer</h3>
                         <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-windows-i686-installer.exe"> Download {{ release }} installer for Windows 32 bit</a>
-                        <br><br>
+                        <br>
                         <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-windows-x86_64-installer.exe"> Download {{ release }} installer for Windows 64 bit</a>
 
-                        <h4>Installation Instructions</h4>
+                        <h4>Instructions</h4>
                         <div>
                             <ul  class="bullets">
-                                <li>Download and run the installer.</li>
+                                <li>Download and run the installer</li>
+                                <li>Run Ricochet Refresh from the Start Menu or Desktop shortcuts</li>
                                 
+                            </ul>
+                        </div>
+
+                        <h3 class="bold">Portable Archive</h3>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-windows-i686.zip"> Download {{ release }} portable zip for Windows 32 bit</a>
+                        <br>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-windows-x86_64.zip"> Download {{ release }} portable zip for Windows 64 bit</a>
+
+                        <h4>Instructions</h4>
+                        <div>
+                            <ul class="bullets">
+                                <li>Download and extract the archive to desired path</li>
+                                <li>Run the ricochet-refresh.exe executable</li>
                             </ul>
                         </div>
 
@@ -39,12 +54,15 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h3 class="section-heading bold">macOS</h3>
-                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-macos-x86_64.dmg"> Download {{ release }} DMG for macOS x86-64</a>
-                        <h4>Installation Instructions</h4>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-macos-x86_64.dmg"> Download {{ release }} DMG for macOS x86_64</a>
+                        <br>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-macos-aarch64.dmg"> Download {{ release }} DMG for macOS aarch64</a>
+                        <h4>Instructions</h4>
                         <div>
                             <ul  class="bullets">
-                                <li>Click the downloaded .dmg file when it appears.</li>
-                                <li>Drag the icon Ricochet Refresh into your Applications folder.</li>
+                                <li>Mount the downloaded .dmg image</li>
+                                <li>Drag the Ricochet Refresh.app icon into your Applications folder</li>
+                                <li>Run Ricochet Refresh from Spotlight</li>
                             </ul>
                         </div>
                     </div>
@@ -52,33 +70,38 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h3 class="section-heading bold">Linux</h3>
+                        <h3 class="bold">Portable Archive</h3>
 
                         <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-linux-i686.tar.gz"> Download {{ release }} .tar.gz archive for i686 Linux</a>
-                        <br><br>
+                        <br>
                         <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-linux-x86_64.tar.gz"> Download {{ release }} .tar.gz archive for x86_64 Linux</a>
-                        <h4>Installation Instructions</h4>
+                        <h4>Instructions</h4>
                         <div>
                             <ul class="bullets">
-                                <li>Extract the archive, and run the Ricochet Refresh binary.</li>
+                                <li>Extract the archive, and run the ricochet-refresh binary</li>
                             </ul>
                         </div>
 
-                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh_{{ release }}-1_i686.deb"> Download {{ release }} .deb package for i686 Linux</a>
-                        <br><br>
-                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh_{{ release }}-1_amd64.deb"> Download {{ release }} .deb package for amd64 Linux</a>
-                        <h4>Installation Instructions</h4>
+                        <h3 class="bold">Debian Package</h3>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh_{{ release }}_i386.deb"> Download {{ release }} .deb package for i386 Debian-based Linux</a>
+                        <br>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh_{{ release }}_amd64.deb"> Download {{ release }} .deb package for amd64 Debian-based Linux</a>
+                        <h4>Instructions</h4>
                         <div>
                             <ul class="bullets">
                                 <li>Install the deb using apt or dpkg</li>
+                                <li>Run Ricochet-Refresh from your desktop environment or ricochet-refresh from the command-line</li>
                             </ul>
                         </div>
-                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/Ricochet_Refresh-{{ appImageId }}-i386.AppImage "> Download {{ release }} .AppImage package for i386 Linux</a>
-                        <br><br>
-                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/Ricochet_Refresh-{{ appImageId }}-x86_64.AppImage "> Download {{ release }} .AppImage package for x86_64 Linux</a>
-                        <h4>Installation Instructions</h4>
+                        <h3 class="bold">AppImage Package</h3>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-i386.appimage"> Download {{ release }} .appimage package for i386 Linux</a>
+                        <br>
+                        <a class="btn btn-primary btn-download" href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v{{ release }}-release/ricochet-refresh-{{ release }}-x86_64.appimage"> Download {{ release }} .appimage package for x86_64 Linux</a>
+                        <h4>Instructions</h4>
                         <div>
                             <ul class="bullets">
-                                <li>Run the downloaded .AppImage file</li>
+                                <li>Run the downloaded .appimage file</li>
+                                <li>Run Ricochet-Refresh from your desktop environment or ricochet-refresh from the command-line</li>
                             </ul>
                         </div>
                     </div>
