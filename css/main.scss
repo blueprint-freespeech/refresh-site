@@ -88,3 +88,13 @@ a {}
         display: inline-block;
         padding-inline-start:18px;
 }
+
+.statement-header{
+        font-size:1.7rem
+}
+@media (min-width: 768px) {  
+        .statement-header{
+                font-size:2.8rem
+        }
+}
+.statement {top:70px;position:absolute;width:100%;z-index:100;color:white;margin-left: 0px;margin-right:0px}
