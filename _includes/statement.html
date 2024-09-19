@@ -1,0 +1,82 @@
+<section id="statement" class="about bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-left">
+                <h2 class="section-heading">Statement from Ricochet-Refresh Regarding The Recent Stories in German Media
+                    About Alleged Timing Attacks Affecting Our Users</h2>
+                <h3 class="section-heading">Wednesday 18 September 2024</h3>
+                <p>Several German media news outlets have run a story about law enforcement agencies allegedly breaking
+                    the anonymity provided by Tor and, with it, Ricochet-Refresh. </p>
+                <p>We would like to answer some questions on the matter to clarify the facts from the hype. </p>
+                <h3 class="section-heading">1. Are you aware of cases where Ricochet users were de-anonymised? If so,
+                    how?</h3>
+                <p>We are not aware of any cases where users of the current version of Ricochet-Refresh have been
+                    de-anonymised. (Including this alleged case, since no evidence of such was provided to us).</p>
+                <p>The reported attacks occurred 2019-2021, and we have substantially updated the software to improve
+                    security since that time. </p>
+                <p>Some technical details from our end:</p>
+                <p>In particular, the <a href="https://blog.torproject.org/announcing-vanguards-add-onion-services/">vanguards-lite</a> feature was introduced to Ricochet-Refresh in version 3.0.12 in
+                    June of 2022, after upgrading to the tor 0.4.7 series. Without being provided with the details of
+                    the reported attack, we can not say definitively this feature would have stopped it. However, we do
+                    know vanguards were introduced in part to make this general class of attacks more difficult to pull
+                    off. Since then, we have continued releasing regular updates which include security updates from our
+                    upstream dependencies (including Tor). </p>
+                <h3 class="section-heading">2. What are these 'timing' attacks? Could they be applied to anonymous
+                    communications? Do they breach the confidentiality of an online conversation?</h3>
+                <p>Again, we have no proven details of the attack and it's hard to respond to an incident when you can't
+                    see the documentation. </p>
+                <p>'Timing' attacks have been around for a while, nothing new there. They can in theory unmask the
+                    identity of an anonymous end-user, but they do not break open the content of a secret conversation.
+                    Generally the attacker in this situation would need vast resources and enormous legal powers to be
+                    successful - only the kind that a state could access.</p>
+                <p>The field of cybersecurity rarely offers absolute guarantees. If you want to be perfectly private,
+                    you need to disconnect entirely from the digital world. That's not a very practical solution for
+                    most people.</p>
+                <p>So you winnow down risk as far as possible. It's illogical to say 'because there is some very small
+                    risk, we should stop using technology to protect ourselves'. Instead, the best choice is to opt for
+                    free, open-source software like Ricochet-Refresh, which by design, gives you enormously more privacy
+                    and anonymity than the vast majority of other tools.</p>
+                <h3 class="section-heading">3. Is it at all possible for Ricochet-Refresh users to protect themselves
+                    against such 'timing analyses'? If so, how?</h3>
+
+                <p>Ricochet-Refresh is one of the safest ways to communicate online. The vast majority of people using
+                    Ricochet-Refresh do not need to do anything to protect themselves against timing analysis attacks.
+                </p>
+
+                <p>In the overwhelming majority of cases, an attacker will not be able to find someone's identity
+                    because they do not have these kinds of very large resources.</p>
+
+                <p>As a purely precautionary measure, we suggest end-users who face powerful attackers should limit the
+                    number of people to whom they distribute their Ricochet-Refresh ID. In the context of
+                    Ricochet-Refresh, most theoretical and practical attacks are only possible if the adversary knows
+                    the ID of the target they are attempting to de-anonymise</p>
+
+                <p>Note that the content of the message stays secret in the attack scenarios described to us by the
+                    journalist who wrote the story.</p>
+
+                <h3 class="section-heading">4. Do you continue to improve Ricochet-Refresh' security? </h3>
+
+                <p>We do. We provide monthly(ish) Ricochet-Refresh releases when upstream dependencies (e.g. Tor,
+                    openssl, qt, etc) publish security updates. Beyond that, we have also been researching and
+                    developing an <a href="https://gosling.technology/design-doc.xhtml">improved back-end</a> which should make 'timing analysis' attacks much more difficult by
+                    providing the user the ability to control their online visibility to unauthorised peers.</p>
+
+                <h3 class="section-heading">5. Is it safe to continue using Ricochet? Why?</h3>
+
+                <p>Note: Ricochet is not the same as Ricochet-Refresh. Ricochet has been retired because it relies on
+                    legacy technology that no longer exists in the Tor Network.</p>
+
+                <p>Yes. People should continue using Ricochet-Refresh with a high degree of confidence. It is still one
+                    of the most private and secure ways to communicate online.</p>
+
+                <p>The protocol is completely peer-to-peer and the client is open-source; there is no account
+                    registration, no servers hosting your data, and no centralised organisations or infrastructure to
+                    attack. A person's account data is stored locally on their own computer and their communications are
+                    only sent to the intended recipients. These communications are private and secure by default because
+                    they are end-to-end encrypted.</p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
