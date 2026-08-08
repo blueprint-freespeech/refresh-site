@@ -6,16 +6,16 @@ description: A Blueprint For Free speech initiative to update and improve Ricoch
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://www.ricochetrefresh.net" # the base hostname & protocol for your site
 
-# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, x-twitter, etc.) see all icon at fontawesome.io
 social:
-  - title: twitter
-    url: https://twitter.com/r2refresh
+  - title: x-twitter
+    url: https://x.com/r2refresh
   # - title: facebook
-  #  url: 
+  #  url:
   # - title: google-plus
-  #  url: 
+  #  url:
   #- title: github
-  #  url: 
+  #  url:
 
 # Build settings
 markdown: kramdown
